@@ -160,19 +160,23 @@ font-size: 16px;
     justify-content: space-between
 }
 .band{
-    width: 45%;
+    width: 47%;
     height: 400px;
-    
+     background-image: url(image1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
+
 .image2{
     background-image: url(image1.png);
 }
-.image3{
+.image1{
     background-image: url(images2.png);
+}
+.image3{
+    background-image: url(image3.png);
 }
 
 .tex{
@@ -188,9 +192,24 @@ padding: 0px 0px 0px 0px;
 text-align: left;
 font-size: 50px;
 }
-.two{
+.two, .three{
     display: flex;
     justify-content: space-between;
 }
-
-    
+.band1{
+    width: 30%;
+    height: 400px;
+      background-image: url(image3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 30px;
+}
+ .image4{
+    background-image: url(image4.png);
+ } 
+    .image5{
+    background-image: url(image5.png);
+ }     
+ 
